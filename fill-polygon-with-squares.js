@@ -93,9 +93,8 @@
       }
     }
     
-    document.getElementById("multiplier").innerHTML = (stepMultiplier*stepMultiplier) + " x &nbsp;";
-    document.getElementById("result").innerHTML = "&nbsp;" + (count * stepMultiplier) + " x &nbsp;";
-    console.log(count);
+    document.getElementById("multiplier").innerHTML = (stepMultiplier * stepMultiplier) + " x &nbsp;";
+    document.getElementById("result").innerHTML = "&nbsp;" + (count * stepMultiplier * stepMultiplier) + " x &nbsp;";
   });
      
   map.addInteraction(draw);
